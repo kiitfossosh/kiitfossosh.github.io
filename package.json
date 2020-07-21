@@ -1,0 +1,25 @@
+{
+  "name": "kiitfoss.github.io",
+  "version": "1.0.0",
+  "description": "KIIT FOSS website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayak-sil/kiitfoss.github.io.git"
+  },
+  "author": " KIIT FOSS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayak-sil/kiitfoss.github.io/issues"
+  },
+  "homepage": "https://github.com/rayak-sil/kiitfoss.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.5"
+  }
+}
