@@ -106,7 +106,7 @@
 
 @media (max-width: 600px) {
   #terminal {
-    max-height: 75vh;
+    max-height: 60vh;
     width: 80vw;
   }
   #terminal-container{
