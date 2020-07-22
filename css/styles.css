@@ -13,12 +13,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 93vh;
+  height: 100vh;
 }
 
 #terminal {
   width: 70vw;
-  height: 60vh;
+  height: 75vh;
   box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
 }
 
@@ -80,7 +80,6 @@
   font-family: 'Ubuntu Mono';
   height: calc(100% - 30px);
   padding-top: 2px;
-  margin-top: -1px;
 }
 
 #terminal-prompt {
@@ -101,29 +100,21 @@
     font-size: 13px;
 }
 
+#fa-telegram-home{
+  color: #0088cc;
+}
+
 @media (max-width: 600px) {
   #terminal {
-    max-height: 40vh;
+    max-height: 90vh;
     width: 80vw;
   }
   #terminal-container{
-    max-height: 50vh;
+    max-height: 100vh;
   }
 }
 
-body{
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
-}
-
-.navbar-dark{
-    background-color: #512da8;
-}
-
-.navbar-brand{
-    padding-left: 25px;
-}
-
-.nav-first{
-    padding-right: 25px;
+#telegram-join{
+  position: absolute;
+  bottom: 30px;
 }
