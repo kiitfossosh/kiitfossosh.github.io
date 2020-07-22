@@ -110,11 +110,12 @@
     width: 80vw;
   }
   #terminal-container{
-    max-height: 100vh;
+    max-height: 90vh;
   }
 }
 
 #telegram-join{
+  color: #555555;
   position: absolute;
   bottom: 30px;
 }
