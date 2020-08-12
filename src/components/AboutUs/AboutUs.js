@@ -17,7 +17,7 @@ const TextHead = styled.h1`
 	font-family: "Rubik", sans-serif;
 	font-weight: 700;
 	font-size: 3.4rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0.3rem;
 `
 
 const TextSubHead = styled.p`
@@ -37,7 +37,8 @@ const LeftImage = styled.img`
 	position: relative;
 	float: left;
 	top: -30rem;
-	left: -3rem;
+
+	display: none;
 
 	@media screen and (max-width: 600px){
 		display: none;
@@ -47,9 +48,9 @@ const LeftImage = styled.img`
 const RightImage = styled.img`
 	position: relative;
 	top: -20rem;
-	right: -4rem;
 	float: right;
 	width: 10%;
+	display: none;
 	
 	@media screen and (max-width: 600px){
 		display: none;
@@ -58,7 +59,7 @@ const RightImage = styled.img`
 
 const AboutUs = () => {
 	return (
-		<div>
+		<div id="aboutus">
 			<AboutUsContainer>
 				<TextHead>About Us</TextHead>
 

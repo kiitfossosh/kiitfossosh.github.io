@@ -47,7 +47,7 @@ const ImageContainer = styled.div`
 
 const Home = () => {
 	return (
-		<div>
+		<div id="home">
 			<HomeContainer>
 				<TextContainer>
 					<HomeTitle>KIIT FOSS/OSH</HomeTitle>

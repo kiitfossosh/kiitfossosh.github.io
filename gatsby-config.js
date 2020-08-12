@@ -5,7 +5,8 @@ module.exports = {
     author: `Junaid Rahim`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+	`gatsby-plugin-react-helmet`,
+	`gatsby-plugin-smoothscroll`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
