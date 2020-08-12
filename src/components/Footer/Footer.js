@@ -21,14 +21,15 @@ const TextContainer = styled.div`
 
 	@media screen and (max-width: 800px) {
 		margin-top: 3rem;
+		padding: 0rem 2rem 2rem 2.5rem;
 	}
 `
 
-const FooterText = styled.h1`
+const FooterText = styled.h2`
 	font-weight: 700;
 `
 
-const FooterSubText = styled.h4`
+const FooterSubText = styled.h6`
 	font-weight: 300;
 `
 
@@ -43,18 +44,25 @@ const IconsContainer = styled.div`
 
 const GithubContainer = styled.div`
 	color: white;
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 	padding: 4rem;
 
 	a {
 		color: white;
 		text-decoration: none;
 	}
+
+	@media screen and (max-width: 600px){
+		padding: 2rem;
+	}
 `
 
 const Footer = () => {
 	return (
-		<div id="footer" style={{backgroundColor: '#E5E5E5', paddingTop: '4rem'}}>
+		<div
+			id="footer"
+			style={{ backgroundColor: "#E5E5E5", paddingTop: "4rem" }}
+		>
 			<img
 				src={footer_waves_svg}
 				width="100%"
@@ -83,22 +91,14 @@ const Footer = () => {
 							></i>
 						</a>
 
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<a href="#" target="_blank" rel="noopener noreferrer">
 							<i
 								style={{ marginRight: "1.3rem" }}
 								className="fab fa-twitter"
 							></i>
 						</a>
 
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<a href="#" target="_blank" rel="noopener noreferrer">
 							<i
 								style={{ marginRight: "1.3rem" }}
 								className="fab fa-medium"

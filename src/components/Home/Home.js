@@ -11,12 +11,23 @@ const HomeContainer = styled.div`
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 5rem 0rem 5rem 3rem;
+
+	@media screen and (max-width: 600px) {
+		padding: 5rem 0rem 5rem 0rem;
+		margin: 0rem;
+		text-align: center;
+	}
 `
 
 const TextContainer = styled.div`
 	font-family: "Rubik", sans-serif;
 	padding: 2rem;
 	color: white;
+
+	@media screen and (max-width: 600px) {
+		padding: 0rem;
+		margin: 0rem;
+	}
 `
 
 const HomeTitle = styled.h1`
@@ -91,7 +102,8 @@ const Home = () => {
 					<img src={home_working_img}></img>
 				</ImageContainer>
 			</HomeContainer>
-			<img src={home_waves_svg}></img>
+
+			<img style={{ position: 'relative', top: '-1px' }} src={home_waves_svg}></img>
 		</div>
 	)
 }

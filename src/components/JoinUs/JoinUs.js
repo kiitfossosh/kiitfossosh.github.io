@@ -11,7 +11,7 @@ const JoinUsContainer = styled.div`
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	padding: 6rem 10rem 15rem 10rem;
+	padding: 6rem 10rem 15% 10rem;
 
 	@media screen and (max-width: 600px) {
 		padding: 6rem 2rem 15rem 3rem;
