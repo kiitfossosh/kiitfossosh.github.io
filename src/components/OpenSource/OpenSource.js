@@ -36,12 +36,12 @@ const ImageContainer = styled.div`
 		width: 60%;
 	}
 
-	@media screen and (max-width: 600px){
+	@media screen and (max-width: 600px) {
 		padding: 0rem;
 
 		img {
 			margin: 4rem 0rem 0rem 0rem;
-			width: 100%; 
+			width: 100%;
 		}
 	}
 `
@@ -52,6 +52,15 @@ const OpenSource = () => {
 			<TextContainer>
 				<TextHead>
 					What is Open Source <br /> Software ?
+					<hr
+						align="left"
+						style={{
+							height: "3px",
+							backgroundColor: "#FCA311",
+							border: "none",
+							width: "70%",
+						}}
+					></hr>
 				</TextHead>
 
 				<TextSubHead>
@@ -68,8 +77,14 @@ const OpenSource = () => {
 
 				<br></br>
 
-				
-				<Button style={{ color: 'black' }} href="https://opensource.org/" variant="outline-warning" size="lg">Learn More</Button>
+				<Button
+					style={{ color: "black" }}
+					href="https://opensource.org/"
+					variant="outline-warning"
+					size="lg"
+				>
+					Learn More
+				</Button>
 			</TextContainer>
 
 			<ImageContainer>

@@ -5,6 +5,8 @@ import Helmet from "react-helmet"
 import SiteNavbar from "../components/Navbar/SiteNavbar"
 import Home from "../components/Home/Home"
 import OpenSource from "../components/OpenSource/OpenSource"
+import AboutUs from "../components/AboutUs/AboutUs"
+
 import Footer from "../components/Footer/Footer"
 
 import SEO from "../components/seo"
@@ -30,8 +32,9 @@ const IndexPage = () => (
 		<SiteNavbar />
 		<Home />
         <OpenSource />
+        <AboutUs />
+        <br></br>
 
-        
 		<Footer />
 	</div>
 )
