@@ -20,6 +20,10 @@ const HeadText = styled.h1`
 	text-align: center;
 	padding: 3rem;
 	padding-bottom: 1rem;
+
+	@media screen and (max-width: 600px){
+		font-size: 2.3rem;
+	}
 `
 
 const CardContainer = styled.div`

@@ -11,6 +11,10 @@ const AboutUsContainer = styled.div`
 	text-align: center;
 	background-color: #e5e5e5;
 	padding: 6rem;
+
+	@media screen and (max-width: 600px){
+		padding: 3rem;
+	}
 `
 
 const TextHead = styled.h1`
