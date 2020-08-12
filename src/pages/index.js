@@ -6,6 +6,8 @@ import SiteNavbar from "../components/Navbar/SiteNavbar"
 import Home from "../components/Home/Home"
 import OpenSource from "../components/OpenSource/OpenSource"
 import AboutUs from "../components/AboutUs/AboutUs"
+import JoinUs from "../components/JoinUs/JoinUs"
+
 import Contributors from "../components/Contributors/Contributors"
 
 import Footer from "../components/Footer/Footer"
@@ -35,6 +37,7 @@ const IndexPage = () => (
         <OpenSource />
         <AboutUs />
         <Contributors />
+		<JoinUs />
 
         <br></br>
 

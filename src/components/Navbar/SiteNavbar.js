@@ -28,7 +28,7 @@ const SiteNavbar = () => {
 						<Nav.Link active onClick={() => scrollTo("#contributors")}>
 							Contributors
 						</Nav.Link>
-						<Nav.Link active onClick={() => scrollTo("#aboutus")}>
+						<Nav.Link active onClick={() => scrollTo("#joinus")}>
 							Join Us
 						</Nav.Link>
 						<Nav.Link active onClick={() => scrollTo("#footer")}>

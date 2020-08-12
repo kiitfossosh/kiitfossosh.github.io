@@ -54,7 +54,7 @@ const GithubContainer = styled.div`
 
 const Footer = () => {
 	return (
-		<div id="footer">
+		<div id="footer" style={{backgroundColor: '#E5E5E5', paddingTop: '4rem'}}>
 			<img
 				src={footer_waves_svg}
 				width="100%"
