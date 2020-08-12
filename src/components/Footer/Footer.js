@@ -91,7 +91,7 @@ const Footer = () => {
 							></i>
 						</a>
 
-						<a href="#" target="_blank" rel="noopener noreferrer">
+						<a href="https://twitter.com/kiitfossosh" target="_blank" rel="noopener noreferrer">
 							<i
 								style={{ marginRight: "1.3rem" }}
 								className="fab fa-twitter"
