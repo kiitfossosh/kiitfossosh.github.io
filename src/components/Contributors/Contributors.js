@@ -32,7 +32,7 @@ const CardContainer = styled.div`
 	grid-auto-rows: auto;
 	padding: 4rem 8rem 9rem 8rem;
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 700px) {
 		grid-template-columns: repeat(1, 1fr);
 		padding: 2rem;
 	}

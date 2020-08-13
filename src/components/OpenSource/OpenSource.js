@@ -30,14 +30,25 @@ const TextSubHead = styled.p`
 
 const ImageContainer = styled.div`
 	padding-right: 4rem;
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
 
 	img {
 		float: right;
 		width: 60%;
 	}
 
-	@media screen and (max-width: 600px) {
-		padding: 0rem;
+	@media screen and (max-width: 1100px){
+		width: 90%;
+	}
+	
+	@media screen and (max-width: 900px){
+		width: 100%;
+	}
+
+	@media screen and (max-width: 700px) {
+		padding: 1rem;
 
 		img {
 			margin: 4rem 0rem 0rem 0rem;
