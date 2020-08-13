@@ -53,7 +53,13 @@ const JoinUsText = styled.div`
 		margin-top: 3rem;
 		padding: 1rem;
 
-		text-align: center;
+		h1 {
+			font-size: 2rem;
+		}
+
+		a {
+			font-size: 3rem;
+		}
 	}
 `
 
