@@ -2,11 +2,12 @@ import React from "react"
 import styled from "styled-components"
 
 import contributors_bg_img from "../../images/contributors_bg.svg"
-import anant_iyer from "../../images/profile/anant_iyer.jpg"
-import megdut_mandal from "../../images/profile/megdut_mandal.jpg"
-import neelanjan_manna from "../../images/profile/neelanjan_manna.jpeg"
-import rajesh_kumbharkar from "../../images/profile/rajesh_kumbharkar.jpg"
-import rishi_shukla from "../../images/profile/rishi_shukla.png"
+
+import anant_iyer from "../../images/profile/anant_iyer.webp"
+import megdut_mandal from "../../images/profile/megdut_mandal.webp"
+import neelanjan_manna from "../../images/profile/neelanjan_manna.webp"
+import rajesh_kumbharkar from "../../images/profile/rajesh_kumbharkar.webp"
+import rishi_shukla from "../../images/profile/rishi_shukla.webp"
 
 const ContributorsContainer = styled.div`
 	background-image: url(${contributors_bg_img});
@@ -100,7 +101,7 @@ const Contributors = () => {
 				<CardContainer>
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={anant_iyer}></ProfilePic>
+							<ProfilePic src={anant_iyer} loading="lazy"></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Anant Kumar Iyer</h3>
@@ -122,7 +123,7 @@ const Contributors = () => {
 
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={rajesh_kumbharkar}></ProfilePic>
+							<ProfilePic src={rajesh_kumbharkar} loading="lazy"></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Rajesh Kumbhakar</h3>
@@ -144,7 +145,7 @@ const Contributors = () => {
 
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={megdut_mandal}></ProfilePic>
+							<ProfilePic src={megdut_mandal} loading="lazy"></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Meghdut Mandal</h3>
@@ -166,7 +167,7 @@ const Contributors = () => {
 
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={rishi_shukla}></ProfilePic>
+							<ProfilePic src={rishi_shukla} loading="lazy"></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Rishi Shukla</h3>
@@ -188,7 +189,7 @@ const Contributors = () => {
 
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={neelanjan_manna}></ProfilePic>
+							<ProfilePic src={neelanjan_manna} loading="lazy"></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Neelanjan Manna</h3>
