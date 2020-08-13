@@ -65,12 +65,12 @@ const Card = styled.div`
 	margin: 1rem;
 	position: relative;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-	padding: 1.6rem;
+	padding: 0rem 0rem 1rem 0rem;
 
 	.name {
 		font-family: "Rubik", sans-serif;
 		text-align: center;
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 
 	a {
