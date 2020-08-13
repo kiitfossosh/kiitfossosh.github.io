@@ -10,6 +10,10 @@ const OpenSourceContainer = styled.div`
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 2rem 4rem 5rem 4rem;
+
+	@media screen and (max-width: 700px){
+		padding: 2rem 2rem 5rem 2rem;
+	}
 `
 
 const TextContainer = styled.div`
