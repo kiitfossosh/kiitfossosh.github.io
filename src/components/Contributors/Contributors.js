@@ -44,7 +44,17 @@ const CardContainer = styled.div`
 		padding: 2rem;
 	}
 `
+const CardContainerDevs = styled.div`
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: auto;
+	padding: 4rem 8rem 4rem 8rem;
 
+	@media screen and (max-width: 700px) {
+		grid-template-columns: repeat(1, 1fr);
+		padding: 2rem;
+	}
+`
 const Card = styled.div`
 	background: #fff;
 	border-radius: 10px;
@@ -237,7 +247,7 @@ const Contributors = () => {
 					}}
 				></hr>
 
-				<CardContainer>
+				<CardContainerDevs>
 					<Card>
 						<h3 className="name">Junaid H Rahim</h3>
 
@@ -309,7 +319,7 @@ const Contributors = () => {
 							</a> */}
 						</div>
 					</Card>
-				</CardContainer>
+				</CardContainerDevs>
 			</ContributorsContainer>
 		</div>
 	)
