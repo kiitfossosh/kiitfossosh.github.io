@@ -78,7 +78,7 @@ const JoinUs = () => {
 						</h1>
 
 						<a
-							href="http://t.me/kiitfoss"
+							href="#"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
