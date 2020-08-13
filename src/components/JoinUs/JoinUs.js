@@ -6,15 +6,16 @@ import join_us_bg from "../../images/joinus_bg.svg"
 const JoinUsContainer = styled.div`
 	background-image: url(${join_us_bg});
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	padding: 6rem 10rem 15% 10rem;
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 700px) {
 		padding: 6rem 2rem 15rem 3rem;
+		background-size: cover;
 	}
 `
 
@@ -26,7 +27,7 @@ const JoinUsHeader = styled.h1`
 	font-size: 10rem;
 	line-height: 8rem;
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 700px) {
 		font-size: 7rem;
 		line-height: 6.5rem;
 	}
@@ -48,7 +49,7 @@ const JoinUsText = styled.div`
 		font-size: 5rem;
 	}
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 700px) {
 		margin-top: 3rem;
 		padding: 1rem;
 

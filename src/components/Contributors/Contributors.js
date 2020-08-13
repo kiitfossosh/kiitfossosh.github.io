@@ -6,7 +6,7 @@ import contributors_bg_img from "../../images/contributors_bg.svg"
 const ContributorsContainer = styled.div`
 	background-image: url(${contributors_bg_img});
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 
 	@media screen and (max-width: 600px){
 		background-size: cover;

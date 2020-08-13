@@ -12,7 +12,7 @@ const AboutUsContainer = styled.div`
 	background-color: #e5e5e5;
 	padding: 6rem;
 
-	@media screen and (max-width: 600px){
+	@media screen and (max-width: 700px){
 		padding: 3rem;
 	}
 `
@@ -31,7 +31,7 @@ const TextSubHead = styled.p`
 	font-size: 1.2rem;
 	margin-top: 2rem;
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 700px) {
 		padding: 0rem;
 	}
 `
