@@ -9,6 +9,7 @@ import neelanjan_manna from "../../images/profile/neelanjan_manna.webp"
 import rajesh_kumbharkar from "../../images/profile/rajesh_kumbharkar.webp"
 import rishi_shukla from "../../images/profile/rishi_shukla.webp"
 
+
 const ContributorsContainer = styled.div`
 	background-image: url(${contributors_bg_img});
 	background-repeat: no-repeat;
@@ -66,8 +67,7 @@ const Card = styled.div`
 
 	i {
 		font-size: 2rem;
-		margin-left: 2rem;
-		margin-top: 1rem;
+		margin: 1rem 2rem 1rem 2rem;
 	}
 `
 
@@ -101,7 +101,10 @@ const Contributors = () => {
 				<CardContainer>
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={anant_iyer} loading="lazy"></ProfilePic>
+							<ProfilePic
+								src={anant_iyer}
+								loading="lazy"
+							></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Anant Kumar Iyer</h3>
@@ -123,7 +126,10 @@ const Contributors = () => {
 
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={rajesh_kumbharkar} loading="lazy"></ProfilePic>
+							<ProfilePic
+								src={rajesh_kumbharkar}
+								loading="lazy"
+							></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Rajesh Kumbhakar</h3>
@@ -145,7 +151,10 @@ const Contributors = () => {
 
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={megdut_mandal} loading="lazy"></ProfilePic>
+							<ProfilePic
+								src={megdut_mandal}
+								loading="lazy"
+							></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Meghdut Mandal</h3>
@@ -167,7 +176,10 @@ const Contributors = () => {
 
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={rishi_shukla} loading="lazy"></ProfilePic>
+							<ProfilePic
+								src={rishi_shukla}
+								loading="lazy"
+							></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Rishi Shukla</h3>
@@ -189,7 +201,10 @@ const Contributors = () => {
 
 					<Card>
 						<ProfilePicContainer>
-							<ProfilePic src={neelanjan_manna} loading="lazy"></ProfilePic>
+							<ProfilePic
+								src={neelanjan_manna}
+								loading="lazy"
+							></ProfilePic>
 						</ProfilePicContainer>
 
 						<h3 className="name">Neelanjan Manna</h3>
