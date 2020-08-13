@@ -49,13 +49,13 @@ const CardContainerDevs = styled.div`
 	grid-auto-rows: auto;
 	padding: 4rem 8rem 4rem 8rem;
 
-	@media screen and (max-width: 700px) {
-		grid-template-columns: repeat(1, 1fr);
-		padding: 2rem;
-	}
-
 	@media screen and (max-width: 1100px) {
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media screen and (max-width: 900px) {
+		grid-template-columns: repeat(1, 1fr);
+		padding: 2rem;
 	}
 `
 const Card = styled.div`
