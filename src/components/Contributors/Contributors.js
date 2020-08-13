@@ -9,7 +9,6 @@ import neelanjan_manna from "../../images/profile/neelanjan_manna.webp"
 import rajesh_kumbharkar from "../../images/profile/rajesh_kumbharkar.webp"
 import rishi_shukla from "../../images/profile/rishi_shukla.webp"
 
-
 const ContributorsContainer = styled.div`
 	background-image: url(${contributors_bg_img});
 	background-repeat: no-repeat;
@@ -54,6 +53,10 @@ const CardContainerDevs = styled.div`
 		grid-template-columns: repeat(1, 1fr);
 		padding: 2rem;
 	}
+
+	@media screen and (max-width: 1100px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
 `
 const Card = styled.div`
 	background: #fff;
@@ -77,7 +80,33 @@ const Card = styled.div`
 
 	i {
 		font-size: 2rem;
-		margin: 1rem 2rem 1rem 2rem;
+		margin: 1rem 1rem 1rem 1rem;
+	}
+`
+
+const CardDev = styled.div`
+	background: #fff;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 1rem;
+	position: relative;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	padding: 1.6rem;
+
+	.name {
+		font-family: "Rubik", sans-serif;
+		text-align: center;
+		font-size: 1.6rem;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	i {
+		font-size: 1.6rem;
+		margin: 1rem 1rem 1rem 1rem;
 	}
 `
 
@@ -248,7 +277,7 @@ const Contributors = () => {
 				></hr>
 
 				<CardContainerDevs>
-					<Card>
+					<CardDev>
 						<h3 className="name">Junaid H Rahim</h3>
 
 						<div style={{ textAlign: "center" }}>
@@ -264,9 +293,9 @@ const Contributors = () => {
 								<i className="far fa-window-maximize"></i>
 							</a>
 						</div>
-					</Card>
+					</CardDev>
 
-					<Card>
+					<CardDev>
 						<h3 className="name">Pratyush Khuntia</h3>
 
 						<div style={{ textAlign: "center" }}>
@@ -282,9 +311,9 @@ const Contributors = () => {
 								<i className="far fa-window-maximize"></i>
 							</a> */}
 						</div>
-					</Card>
+					</CardDev>
 
-					<Card>
+					<CardDev>
 						<h3 className="name">Rayak Sil</h3>
 
 						<div style={{ textAlign: "center" }}>
@@ -300,9 +329,9 @@ const Contributors = () => {
 								<i className="far fa-window-maximize"></i>
 							</a> */}
 						</div>
-					</Card>
+					</CardDev>
 
-					<Card>
+					<CardDev>
 						<h3 className="name">Shubhadip Adhikary</h3>
 
 						<div style={{ textAlign: "center" }}>
@@ -318,7 +347,7 @@ const Contributors = () => {
 								<i className="far fa-window-maximize"></i>
 							</a> */}
 						</div>
-					</Card>
+					</CardDev>
 				</CardContainerDevs>
 			</ContributorsContainer>
 		</div>
