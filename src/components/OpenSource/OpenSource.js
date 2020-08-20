@@ -95,6 +95,7 @@ const OpenSource = () => {
 				<Button
 					style={{ color: "black" }}
 					href="https://opensource.org/"
+					target="_blank"
 					variant="outline-warning"
 					size="lg"
 				>

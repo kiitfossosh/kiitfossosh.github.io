@@ -149,11 +149,11 @@ const Contributors = () => {
 						<h3 className="name">Anant Kumar Iyer</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://github.com/CobbleDesigns">
+							<a href="https://github.com/CobbleDesigns" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
-							<a href="https://www.linkedin.com/in/anant-iyer-1004a3175/">
+							<a href="https://www.linkedin.com/in/anant-iyer-1004a3175/" target="_blank">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
@@ -174,11 +174,11 @@ const Contributors = () => {
 						<h3 className="name">Rajesh Kumbhakar</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://github.com/Rajssss">
+							<a href="https://github.com/Rajssss" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
-							<a href="https://www.linkedin.com/in/rajesh-kumbhakar-28873b154/">
+							<a href="https://www.linkedin.com/in/rajesh-kumbhakar-28873b154/" target="_blank">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
@@ -199,11 +199,11 @@ const Contributors = () => {
 						<h3 className="name">Meghdut Mandal</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://github.com/Meghdut-Mandal">
+							<a href="https://github.com/Meghdut-Mandal" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
-							<a href="https://www.linkedin.com/in/meghdut-mandal-aa2625185/">
+							<a href="https://www.linkedin.com/in/meghdut-mandal-aa2625185/" target="_blank">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
@@ -224,7 +224,7 @@ const Contributors = () => {
 						<h3 className="name">Rishi Shukla</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://github.com/lightvortex">
+							<a href="https://github.com/lightvortex" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
@@ -249,11 +249,11 @@ const Contributors = () => {
 						<h3 className="name">Neelanjan Manna</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://github.com/neelanjan00">
+							<a href="https://github.com/neelanjan00" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
-							<a href="https://linkedin.com/in/neelanjan00">
+							<a href="https://linkedin.com/in/neelanjan00" target="_blank">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
@@ -281,15 +281,15 @@ const Contributors = () => {
 						<h3 className="name">Junaid H Rahim</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://www.github.com/junaidrahim">
+							<a href="https://www.github.com/junaidrahim" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
-							<a href="https://www.linkedin.com/in/junaidrahim">
+							<a href="https://www.linkedin.com/in/junaidrahim" target="_blank">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
-							<a href="https://junaidrahim.github.io">
+							<a href="https://junaidrahim.github.io" target="_blank">
 								<i className="far fa-window-maximize"></i>
 							</a>
 						</div>
@@ -299,7 +299,7 @@ const Contributors = () => {
 						<h3 className="name">Pratyush Khuntia</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://github.com/Hero9868">
+							<a href="https://github.com/Hero9868" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
@@ -317,7 +317,7 @@ const Contributors = () => {
 						<h3 className="name">Rayak Sil</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://github.com/rayak-sil">
+							<a href="https://github.com/rayak-sil" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
@@ -335,7 +335,7 @@ const Contributors = () => {
 						<h3 className="name">Shubhadip Adhikary</h3>
 
 						<div style={{ textAlign: "center" }}>
-							<a href="https://www.github.com/subhadip007">
+							<a href="https://www.github.com/subhadip007" target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 
