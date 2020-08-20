@@ -1,4 +1,4 @@
-## Kiit Foss website ##
+# KIIT FOSS/OSH Official Website
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
