@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_3">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_3" data-name="Web 1920 – 3" clip-path="url(#clip-Web_1920_3)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="Background_Shape_2" data-name="Background Shape 2" transform="translate(232 255)" opacity="0.505">
+      <path id="Background_Shape" data-name="Background Shape" d="M1009.148,246.291c14.716,110.081-342.183,181.884-649.375,131.775S-88.344,132.274,58.243,28.007,994.432,136.209,1009.148,246.291Z" transform="translate(0 0)" fill="#fca311"/>
+    </g>
+    <path id="Background_Shape-2" data-name="Background Shape" d="M1.959,400.532c39.374-202.768,437.8-87.254,699-149.94s570.222-354.628,774.738-211.62-13.087,488.7-482.159,566.71S-37.415,603.3,1.959,400.532Z" transform="translate(147.364 334.074) rotate(-8)" fill="#fca311"/>
+  </g>
+</svg>

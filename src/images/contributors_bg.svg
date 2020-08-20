@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="contributors_bg.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="0.42291667"
+     inkscape:cx="951.28944"
+     inkscape:cy="712.64013"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="clip-Web_1920_2">
+      <rect
+         width="1920"
+         height="1080"
+         id="rect2" />
+    </clipPath>
+  </defs>
+  <g
+     id="g862">
+    <rect
+       width="1920"
+       height="786.79803"
+       id="rect7"
+       x="0"
+       y="293.20197"
+       style="fill:#ffffff;stroke-width:0.8535319" />
+    <path
+       id="Path_403"
+       data-name="Path 403"
+       d="M 0,778 1920,576.1 V 1080 H 0 Z"
+       inkscape:connector-curvature="0"
+       style="opacity:0.4;fill:#c1dee2" />
+    <g
+       style="opacity:0.388"
+       id="g853">
+      <circle
+         id="Oval"
+         cx="1018"
+         cy="591"
+         r="230"
+         style="fill:#ff9b21" />
+      <circle
+         id="Oval-2"
+         data-name="Oval"
+         cx="1534"
+         cy="876"
+         r="41"
+         style="fill:#2b44ff" />
+      <path
+         id="Polygon"
+         d="m 327,312 49,49 -49,49 -49,-49 z"
+         inkscape:connector-curvature="0"
+         style="fill:#2b44ff" />
+      <path
+         id="Polygon-2"
+         data-name="Polygon"
+         d="m 860,962 24,24 -24,24 -24,-24 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ff9b21" />
+    </g>
+  </g>
+</svg>
