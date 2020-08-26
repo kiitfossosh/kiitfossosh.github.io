@@ -85,8 +85,6 @@ const AboutUs = () => {
 					developers and innovators closer. By working together for a grater cause, 
 					you are not only working with great mids all around, but also giving those an 
 					opportunity to learn innovate and grow.
-					Open source software is software with source code that
-					anyone can inspect, modify, and enhance. <br>
 				</TextSubHead>
 			</AboutUsContainer>
 			
