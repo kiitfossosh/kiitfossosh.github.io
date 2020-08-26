@@ -154,11 +154,6 @@ const Contributors = () => {
 							</a>
 
 							<a href="https://www.linkedin.com/in/anant-iyer-1004a3175/" target="_blank">
-							<a href="https://github.com/CobbleDesigns">
-								<i className="fab fa-github"></i>
-							</a>
-
-							<a href="https://www.linkedin.com/in/anant-iyer-1004a3175/">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
@@ -184,11 +179,6 @@ const Contributors = () => {
 							</a>
 
 							<a href="https://www.linkedin.com/in/rajesh-kumbhakar-28873b154/" target="_blank">
-							<a href="https://github.com/Rajssss">
-								<i className="fab fa-github"></i>
-							</a>
-
-							<a href="https://www.linkedin.com/in/rajesh-kumbhakar-28873b154/">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
@@ -214,11 +204,6 @@ const Contributors = () => {
 							</a>
 
 							<a href="https://www.linkedin.com/in/meghdut-mandal-aa2625185/" target="_blank">
-							<a href="https://github.com/Meghdut-Mandal">
-								<i className="fab fa-github"></i>
-							</a>
-
-							<a href="https://www.linkedin.com/in/meghdut-mandal-aa2625185/">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
@@ -240,7 +225,6 @@ const Contributors = () => {
 
 						<div style={{ textAlign: "center" }}>
 							<a href="https://github.com/lightvortex" target="_blank">
-							<a href="https://github.com/lightvortex">
 								<i className="fab fa-github"></i>
 							</a>
 
@@ -270,11 +254,6 @@ const Contributors = () => {
 							</a>
 
 							<a href="https://linkedin.com/in/neelanjan00" target="_blank">
-							<a href="https://github.com/neelanjan00">
-								<i className="fab fa-github"></i>
-							</a>
-
-							<a href="https://linkedin.com/in/neelanjan00">
 								<i className="fab fa-linkedin"></i>
 							</a>
 
@@ -311,15 +290,6 @@ const Contributors = () => {
 							</a>
 
 							<a href="https://junaidrahim.github.io" target="_blank">
-							<a href="https://www.github.com/junaidrahim">
-								<i className="fab fa-github"></i>
-							</a>
-
-							<a href="https://www.linkedin.com/in/junaidrahim">
-								<i className="fab fa-linkedin"></i>
-							</a>
-
-							<a href="https://junaidrahim.github.io">
 								<i className="far fa-window-maximize"></i>
 							</a>
 						</div>
@@ -330,7 +300,6 @@ const Contributors = () => {
 
 						<div style={{ textAlign: "center" }}>
 							<a href="https://github.com/Hero9868" target="_blank">
-							<a href="https://github.com/Hero9868">
 								<i className="fab fa-github"></i>
 							</a>
 
@@ -349,7 +318,6 @@ const Contributors = () => {
 
 						<div style={{ textAlign: "center" }}>
 							<a href="https://github.com/rayak-sil" target="_blank">
-							<a href="https://github.com/rayak-sil">
 								<i className="fab fa-github"></i>
 							</a>
 
@@ -368,7 +336,6 @@ const Contributors = () => {
 
 						<div style={{ textAlign: "center" }}>
 							<a href="https://www.github.com/subhadip007" target="_blank">
-              <a href="https://www.github.com/subhadip007">
 								<i className="fab fa-github"></i>
 							</a>
 
