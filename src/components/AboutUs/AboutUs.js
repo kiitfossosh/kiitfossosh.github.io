@@ -85,6 +85,15 @@ const AboutUs = () => {
 					developers and innovators closer. By working together for a grater cause, 
 					you are not only working with great mids all around, but also giving those an 
 					opportunity to learn innovate and grow.
+					Open source software is software with source code that
+					anyone can inspect, modify, and enhance. <br></br> <br></br>
+					"Source code" is the part of software that most computer
+					users don't ever see; it's the code computer programmers can
+					manipulate to change how a piece of software—a "program" or
+					"application"—works. Programmers who have access to a
+					computer program's source code can improve that program by
+					adding features to it or fixing parts that don't always work
+					correctly.
 				</TextSubHead>
 			</AboutUsContainer>
 			
