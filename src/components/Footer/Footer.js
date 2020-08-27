@@ -90,6 +90,13 @@ const Footer = () => {
 								className="fab fa-telegram"
 							></i>
 						</a>
+						
+						<a href="https://www.instagram.com/kiitfossosh/" target="_blank" rel="noopener noreferrer">
+							<i
+								style={{ marginRight: "1.3rem" }}
+								className="fab fa-instagram"
+							></i>
+						</a>
 
 						<a href="https://twitter.com/kiitfossosh" target="_blank" rel="noopener noreferrer">
 							<i
