@@ -81,10 +81,10 @@ const AboutUs = () => {
 					KIIT FOSS/OSH is an Open Source Community, which aims to provide everyone 
 					a place where innovations takes place in a collaborative environment with 
 					Open Source technogies and principles. We believe in working together in 
-					an Open environment has a better impact to the society and also brings 
+					an Open environment, which has a better impact to the society and also brings 
 					developers and innovators closer. By working together for a grater cause, 
-					you are not only working with great mids all around, but also giving those an 
-					opportunity to learn innovate and grow.
+					you are not only working with great minds all around, but also giving those an 
+					opportunity to learn, innovate and grow.
 				</TextSubHead>
 			</AboutUsContainer>
 			
