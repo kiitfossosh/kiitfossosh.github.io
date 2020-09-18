@@ -91,7 +91,7 @@ const Home = () => {
 							style={{ marginRight: "0.5rem" }}
 						></i>
 						<a
-							href="http://t.me/kiitfoss"
+							href="https://telegram.me/joinchat/GaeOBkkUOssqrpiHoYSMvw"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
