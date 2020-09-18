@@ -120,11 +120,11 @@ const Footer = () => {
 						style={{ marginRight: "0.5rem" }}
 					></i>
 					<a
-						href="https://github.com/kiitfoss"
+						href="https://github.com/kiitfossosh"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						github.com/kiitfoss
+						github.com/kiitfossosh
 					</a>
 				</GithubContainer>
 			</FooterContainer>
